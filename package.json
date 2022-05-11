@@ -1,0 +1,19 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "Sample OpenWhisk NodeJS serverless framework service.",
+  "main": "handler.js",
+  "scripts": {
+    "dev" : "sls offline start --httpPort :3000",
+    "test": "echo \"error : no test done!\" &&exit 1"
+  },
+  "keywords": [
+    "serverless",
+    "openwhisk"
+  ],
+  "devDependencies": {
+    "serverless-offline": "^8.7.0",
+    "serverless-openwhisk": "^0.18.4"  
+  }
+  
+}
